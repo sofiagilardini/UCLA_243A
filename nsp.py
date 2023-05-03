@@ -7,7 +7,7 @@ Helper functions for Neural Signal Processing
 import numpy as np
 import matplotlib.pyplot as plt
 
-def GeneratePoissonSpikeTrain( T, rate ):
+def GeneratePoissonSpikeTrain( T, rate ) -> list:
 #GENERATEPOISSONSPIKETRAIN Summary of this function goes here
 #   T in ms
 #   r in spikes/s
